@@ -1,0 +1,38 @@
+04/08
+
+PARA FAZER{
+    - comentar cada notebook, no início dele, sobre oq ele faz(fiz no Classification de exemplo)
+    - apagar notebooks inúteis para evitar confusão(não sei quais vocês estão usando de fato, por isso não apaguei)
+}
+
+OBSERVAÇÃOOOOOOOO{
+
+    coloquem o nome do notebook de saída IGUAL ao notebook de entrada, NÃO PRECISA MUDAR O NOME, exemplo:
+
+        ...u-crd/2.0/fluxograma.ipynb --output outfluxograma.ipynb (gera um arquivo desnecessário outfluxograma.ipynb)
+
+        ao invés disso, use:
+
+        u-crd/2.0/fluxograma.ipynb --output fluxograma.ipynb (assim, o arquivo só é substituido por outro notebook, mas com as saídas)
+}
+
+
+
+Organização da pasta em diretórios{
+
+    A BASE INTEIRA    --foi para-->    /Base
+
+    ARQUIVOS DOS SCRIPTS(e.g. marScript.sh)   --foi para-->    /shScripts
+
+    DATAFRAMES DE SAÍDA DE NOTEBOOKS(e.g. df_knn.csv, df_media.csv)   --foi para-->    /Outputs/DataFrames
+
+    NOTEBOOKS DE TRATAMENTO DA BASE(e.g. Classification.csv)   --foi para-->    /Notebooks/PreCure
+
+    NOTEBOOKS DE USO DA BASE CURADA(e.g. XgBoost.ipynb)   --foi para-->    /Notebooks/PosCure
+
+    ARQUIVOS DE SAÍDA DO SLURM (e.g. slurm-2410.out)   --foi para-->    /Outputs/slurmOutputs
+}
+
+Me ajudem a organizar isso:
+    notebooks que usam a base antes dela ser curada  --vai para--> /Notebooks/PreCure
+    notebooks que usam a base após ela ser curada  --vai para--> /Notebooks/PosCure
