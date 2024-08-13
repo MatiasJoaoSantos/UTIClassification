@@ -1,0 +1,29 @@
+table,col_var,var,col_time,modal_colect,percent_modal,mean_time,totalpatients,totalexampatients,%exampatients
+lab,labname,-bands,labresultoffset,23966.0,88.54,2404.66,195730.0,27069.0,13.83
+lab,labname,CRP,labresultoffset,8570.0,97.39,5419.93,195730.0,8800.0,4.5
+lab,labname,ESR,labresultoffset,10726.0,99.26,5425.05,195730.0,10806.0,5.52
+lab,labname,Temperature,labresultoffset,21645.0,78.63,1095.06,195730.0,27528.0,14.06
+lab,labname,lactate,labresultoffset,63761.0,88.81,1166.6,195730.0,71794.0,36.68
+lab,labname,WBC x 1000,labresultoffset,119144.0,62.98,1416.77,195730.0,189169.0,96.65
+lab,labname,-lymphs,labresultoffset,110387.0,76.1,1740.07,195730.0,145056.0,74.11
+physicalExam,physicalexamvalue,FiO2%,physicalexamoffset,50722.0,97.12,1602.44,176379.0,52225.0,29.61
+physicalExam,physicalexamvalue,HR Current,physicalexamoffset,129050.0,95.79,1235.23,176379.0,134716.0,76.38
+physicalExam,physicalexamvalue,O2 Sat% Current,physicalexamoffset,125837.0,95.82,1236.49,176379.0,131326.0,74.46
+physicalExam,physicalexamvalue,Resp Current,physicalexamoffset,119997.0,95.63,1221.72,176379.0,125480.0,71.14
+lab,labname,BUN,labresultoffset,111568.0,58.65,1337.67,195730.0,190215.0,97.18
+lab,labname,creatinine,labresultoffset,110466.0,58.0,1317.56,195730.0,190464.0,97.31
+lab,labname,bilirubin,labresultoffset,112346.0,82.74,1624.89,195730.0,135778.0,69.37
+lab,labname,platelets x 1000,labresultoffset,117618.0,62.4,1398.02,195730.0,188498.0,96.31
+lab,labname,Hgb,labresultoffset,110176.0,58.29,1221.67,195730.0,189016.0,96.57
+lab,labname,calcium,labresultoffset,107095.0,56.8,1198.83,195730.0,188563.0,96.34
+lab,labname,potassium,labresultoffset,101157.0,53.19,1200.4,195730.0,190184.0,97.17
+lab,labname,bicarbonate,labresultoffset,106199.0,58.98,1335.89,195730.0,180057.0,91.99
+lab,labname,sodium,labresultoffset,106187.0,55.76,1190.67,195730.0,190438.0,97.3
+lab,labname,PTT,labresultoffset,79819.0,86.49,1275.2,195730.0,92286.0,47.15
+lab,labname,magnesium,labresultoffset,101488.0,74.27,1514.13,195730.0,136652.0,69.82
+lab,labname,glucose,labresultoffset,64772.0,33.59,362.93,195730.0,192812.0,98.51
+lab,labname,chloride,labresultoffset,110304.0,58.2,1320.61,195730.0,189513.0,96.82
+lab,labname,fibrinogen,labresultoffset,15876.0,93.1,1371.49,195730.0,17053.0,8.71
+lab,labname,paO2,labresultoffset,63009.0,73.46,1051.67,195730.0,85769.0,43.82
+lab,labname,troponin,labresultoffset,81467.0,93.2,899.72,195730.0,87415.0,44.66
+lab,labname,albumin,labresultoffset,119100.0,82.56,1917.74,195730.0,144258.0,73.7

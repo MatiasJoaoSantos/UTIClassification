@@ -1,0 +1,89 @@
++ cd /home/all_home/matias.joao/
++ module list
++ local _mlredir=0
++ '[' -n '' ']'
++ case " $@ " in
++ '[' 0 -eq 0 ']'
++ _module_raw list
+++ /usr/bin/tclsh /usr/env-module/Modules5-3-1/libexec/modulecmd.tcl bash list
+No Modulefiles Currently Loaded.
++ eval ''
++ _mlstatus=0
++ return 0
++ module avail
++ local _mlredir=0
++ '[' -n '' ']'
++ case " $@ " in
++ '[' 0 -eq 0 ']'
++ _module_raw avail
+++ /usr/bin/tclsh /usr/env-module/Modules5-3-1/libexec/modulecmd.tcl bash avail
+--------------------------- /opt/Modules/modulefiles ---------------------------
+anaconda3.2023.09-0  cuda/12.3.2  modules      python3.10.12  
+cuda/11.8.0          module-info  python3.7.6  python3.12.1   
++ eval ''
++ _mlstatus=0
++ return 0
++ module load python3.12.1
++ local _mlredir=0
++ '[' -n '' ']'
++ case " $@ " in
++ '[' 0 -eq 0 ']'
++ _module_raw load python3.12.1
+++ /usr/bin/tclsh /usr/env-module/Modules5-3-1/libexec/modulecmd.tcl bash load python3.12.1
++ eval '__MODULES_LMCONFLICT=python3.12.1\&python; export __MODULES_LMCONFLICT;
+PATH=/opt/python/3-1-12/bin:/home/grad/si/22/aliciachaves/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/usr/env-module/Modules5-3-1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/slurm/bin:/home/phocus4/anaconda3/bin; export PATH;
+__MODULES_LMREFRESH=python3.12.1; export __MODULES_LMREFRESH;
+_LMFILES_=/opt/Modules/modulefiles/python3.12.1; export _LMFILES_;
+LOADEDMODULES=python3.12.1; export LOADEDMODULES;
+alias python=python3.12;
+test 0;'
+++ __MODULES_LMCONFLICT='python3.12.1&python'
+++ export __MODULES_LMCONFLICT
+++ PATH=/opt/python/3-1-12/bin:/home/grad/si/22/aliciachaves/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/usr/env-module/Modules5-3-1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/slurm/bin:/home/phocus4/anaconda3/bin
+++ export PATH
+++ __MODULES_LMREFRESH=python3.12.1
+++ export __MODULES_LMREFRESH
+++ _LMFILES_=/opt/Modules/modulefiles/python3.12.1
+++ export _LMFILES_
+++ LOADEDMODULES=python3.12.1
+++ export LOADEDMODULES
+++ alias python=python3.12
+++ test 0
++ _mlstatus=0
++ return 0
++ source .venv/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/home/all_home/matias.joao/.venv
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/opt/python/3-1-12/bin:/home/grad/si/22/aliciachaves/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/usr/env-module/Modules5-3-1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/slurm/bin:/home/phocus4/anaconda3/bin
+++ PATH=/home/all_home/matias.joao/.venv/bin:/opt/python/3-1-12/bin:/home/grad/si/22/aliciachaves/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/usr/env-module/Modules5-3-1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/slurm/bin:/home/phocus4/anaconda3/bin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(.venv) '
+++ export PS1
+++ VIRTUAL_ENV_PROMPT='(.venv) '
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
++ jupyter nbconvert --to notebook --execute /home_cerberus/disk2/haniel.botelho/uploads/Downloads/physionet.org/files/eicu-crd/2.0/Classification.ipynb --output outclass498.ipynb
+[NbConvertApp] Converting notebook /home_cerberus/disk2/haniel.botelho/uploads/Downloads/physionet.org/files/eicu-crd/2.0/Classification.ipynb to notebook
+/home/all_home/matias.joao/.venv/lib/python3.10/site-packages/IPython/paths.py:69: UserWarning: IPython parent '/home/grad/si/22/aliciachaves' is not a writable location, using a temp directory.
+  warn("IPython parent '{0}' is not a writable location,"
+/home/all_home/matias.joao/.venv/lib/python3.10/site-packages/IPython/paths.py:69: UserWarning: IPython parent '/home/grad/si/22/aliciachaves' is not a writable location, using a temp directory.
+  warn("IPython parent '{0}' is not a writable location,"
+[NbConvertApp] Writing 173675 bytes to /home_cerberus/disk2/haniel.botelho/uploads/Downloads/physionet.org/files/eicu-crd/2.0/outclass498.ipynb
++ hostname
+gorgona7
+slurmstepd: error: _cgroup_procs_check: failed on path (null)/cgroup.procs: No such file or directory
+slurmstepd: error: Cannot write to cgroup.procs for (null)
+slurmstepd: error: Unable to move pid 3630394 to init root cgroup (null)
